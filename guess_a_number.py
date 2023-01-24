@@ -19,7 +19,8 @@ while True:
 		break
 	# checking if the guess is correct or lower or higher than the random computer number
 	if player_input == cpu_number:
-		print("\33[1;32;2m You guess it !")
+		print("\33[1;32;2m You guess it !" )
+		print(f"Number of gueses {counter_of_guesses}")
 		break
 	elif player_input < cpu_number:
 		print("\33[1;35;20m Too Low")
